@@ -34,13 +34,15 @@ article {
 }
 
 a img {
-    border: 1px solid rgb(142, 142, 151);
+    border: 1px solid rgb(149, 153, 158);
     border-radius: 2rem;
+    margin: 1rem;
+    padding: 0.5rem;
 }
 
 a:hover img,
 a:active img {
-    border-color: rgb(93, 151, 17);
+    border: 1px solid rgb(93, 151, 17);
 }
 
 .chyba {
