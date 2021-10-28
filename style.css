@@ -33,6 +33,16 @@ article {
     padding: 1rem;
 }
 
+a img {
+    border: 1px solid rgb(142, 142, 151);
+    border-radius: 2rem;
+}
+
+a:hover img,
+a:active img {
+    border-color: rgb(93, 151, 17);
+}
+
 .chyba {
     font-size: 5rem;
     color: rgb(201, 51, 51);
