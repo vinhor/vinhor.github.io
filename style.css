@@ -6,6 +6,7 @@ body {
     color: rgb(142, 142, 151);
     margin: 1rem auto;
     text-align: center;
+    max-width: 1000px;
 }
 
 a {
