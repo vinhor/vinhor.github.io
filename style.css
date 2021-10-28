@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+body {
+    background: rgb(8, 8, 49);
+    font-size: 1.5rem;
+    font-family: 'Ubuntu', Ubuntu, Roboto, Arial, sans-serif;
+    color: rgb(142, 142, 151);
+    margin: 1rem auto;
+    text-align: center;
+}
+
+a {
+    color: rgb(142, 142, 151);
+}
+
+a:hover,
+a:active {
+    color: rgb(93, 151, 17);
+}
