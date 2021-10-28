@@ -32,3 +32,16 @@ article {
     margin: 3rem;
     padding: 1rem;
 }
+
+.chyba {
+    font-size: 5rem;
+    color: rgb(201, 51, 51);
+}
+
+.cervena {
+    color: rgb(201, 51, 51);
+}
+
+.velka {
+    font-size: 2rem;
+}
