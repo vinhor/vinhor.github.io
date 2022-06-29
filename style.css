@@ -25,6 +25,10 @@ ul {
   list-style-position: inside;
 }
 
+ol {
+  list-style-position: inside;
+}
+
 button:hover,
 button:active {
   border-color: #0f98ba;
