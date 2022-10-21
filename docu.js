@@ -23,6 +23,8 @@ window.onload = function () {
   const ulTeplota = document.getElementById("ulTeplota");
   const ulMena = document.getElementById("ulMena");
   const ulVykon = document.getElementById("ulVykon");
+  const menu = document.getElementById("menu");
+  const h1 = document.getElementById("h1");
 
   if (window.innerWidth < 475) {
     divt.className = "malatlacitka";
@@ -35,6 +37,13 @@ window.onload = function () {
     divt.insertBefore(br7, btnMena);
   } else {
     divt.className = "tlacitka";
+  }
+
+  if (window.innerWidth < 600) {
+    menu.className = "malemenu";
+    h1.className = "malemenu";
+  } else {
+    menu.className = "menu";
   }
 
   btnDelka.onclick = function () {
