@@ -70,6 +70,8 @@
   grid-row: 3;
 }
 
+/* Speciální */
+
 button.neaktivni:hover,
 button.neaktivni:active {
   border-color: #3a82a3;
@@ -82,4 +84,10 @@ button.aktivni {
   color: #3a82a3;
   background-color: #eefcd3;
   cursor: not-allowed;
+}
+
+/* IDs */
+
+#h1 {
+  text-transform: none;
 }
