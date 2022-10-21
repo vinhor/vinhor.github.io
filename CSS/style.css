@@ -49,6 +49,13 @@ button:active {
   color: var(--hover);
 }
 
+article {
+  border: 1px solid var(--text);
+  border-radius: 2rem;
+  margin: 3rem;
+  padding: 1rem;
+}
+
 button {
   background: inherit;
   min-width: 6rem;
