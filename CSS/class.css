@@ -19,6 +19,16 @@
   font-size: 2rem;
 }
 
+.menu {
+  display: flex;
+  list-style-type: none;
+}
+
+.malemenu {
+  display: list-item;
+  list-style-type: none;
+}
+
 .tlacitka {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
