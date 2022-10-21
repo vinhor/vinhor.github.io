@@ -25,6 +25,18 @@ body {
   outline: none;
 }
 
+body > header {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+header > h1 {
+  margin: 0 2rem 0 0;
+}
+
 ul {
   display: none;
   list-style-position: inside;
