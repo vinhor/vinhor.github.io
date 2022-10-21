@@ -76,15 +76,10 @@ h2 {
   font-weight: normal;
 }
 
-article {
-  border: 1px solid var(--text);
-  border-radius: 2rem;
-  margin: 3rem;
-  padding: 1rem;
-}
-
 a {
   color: var(--text);
+  text-decoration: none;
+  border-bottom: 1px solid rgb(0, 0, 0);
 }
 
 strong h2 {
@@ -101,4 +96,5 @@ strong {
 a:hover,
 a:active {
   color: var(--hover);
+  border-bottom-color: var(--hover);
 }
